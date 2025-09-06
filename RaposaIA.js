@@ -1,5 +1,5 @@
 
-// javascript:fetch("https://corsproxy.io/?url=https://raw.githubusercontent.com/fehzxkkj/Scripts-Sala-Do-Futuro-/refs/heads/main/FelcaIA.js%22).then(t=%3Et.text()).then(eval);
+// javascript:fetch("https://corsproxy.io/?url=https://raw.githubusercontent.com/fishixzschool/Fishixz-Scripts/refs/heads/main/RaposaIA.js%22).then(t=%3Et.text()).then(eval);
 javascript:(() => {
     console.clear();
 
@@ -43,7 +43,6 @@ Regras:
 2. Se for uma questão aberta (sem alternativas), responda como um aluno do fundamental escreveria: curto, simples e natural.
 3. Apenas dê a resposta final (a letra ou a frase curta).
 4. Algumas perguntas difíceis voce pode explicar, mais sempre mande repsostas curtas e sempre agir naturalmente, pode dar um explicadinha mais bem natural.
-5. Você se chama RaposaIA, foi desenvolvido por um Estudante do Ensino Médio do 2° Ano do Ensino Médio!
 `;
 
     // -------------------- Painel FelcaIA --------------------
@@ -132,7 +131,7 @@ Regras:
             input.value='';
 
             const resposta = document.createElement('div');
-            resposta.textContent = 'FelcaIA: ...';
+            resposta.textContent = 'RaposaIA: ...';
             resposta.style.margin='5px 0';
             resposta.style.color='#0af';
             chatContainer.appendChild(resposta);
@@ -184,7 +183,7 @@ Regras:
         };
         document.onmouseup = () => isDragging = false;
 
-        notifications.success("✅ Painel FelcaIA aberto!");
+        notifications.success("✅ Painel RaposaIA aberto!");
     }
 
     criarPainelIA();
