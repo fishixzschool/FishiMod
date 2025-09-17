@@ -45,7 +45,7 @@ Regras:
 4. Algumas perguntas difíceis voce pode explicar, mais sempre mande repsostas curtas e sempre agir naturalmente, pode dar um explicadinha mais bem natural.
 `;
 
-    // -------------------- Painel FelcaIA --------------------
+    // -------------------- Painel RaposaIA --------------------
     function criarPainelIA() {
         if (document.getElementById("raposaia-panel")) {
             notifications.error("⚠️ O painel já está aberto");
